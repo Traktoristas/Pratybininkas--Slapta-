@@ -1,0 +1,107 @@
+.antraste{
+    background-image: url(genius.jpg);
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.poraste{
+    background-image: url(genius.jpg);
+    height: 100px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.pagrindinis{
+    display: flex;
+}
+
+.menu{
+    width: 100%;
+    border-bottom: double;
+}
+
+.mygtukas{
+    text-decoration: none;
+    border-style: ridge;
+    border-radius: 5%;
+    display: inline-block;
+    border-color: rgb(73, 151, 125);
+    background-color: rgba(118, 206, 206, 0.753);
+    text-transform: uppercase;
+    margin: 4px;
+    transition-duration: 0.87s;
+    padding: 1%;
+    color: black;
+}
+
+li{
+    display: inline;
+}
+
+ul{
+    list-style: none;
+}
+.sonelis{
+        background-color: #2fe99b6b;
+        width: 50%;
+        margin: 1%;
+        padding: 1%;
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: center;
+        justify-content: center; 
+        position: relative;
+        text-align: justify;
+        width: 200px;
+        height: 500px;
+        text-transform: uppercase;
+}
+.skydas{
+    font-size: xxx-large;
+}
+.steam{
+    background-color: rgba(61, 163, 66, 0.342);
+    border-radius: 100%;
+    padding: 15%;
+    font-size: larger;
+}
+.pagrindinesnis{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(246, 215, 250);
+    text-shadow: 2px 2px violet;
+
+}
+.gridas{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    margin-right: 30%;
+}
+.gridasinfo{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+margin-right:14%;
+}
+.straipsnis{
+    width: 200px;
+    margin: 5%;
+    text-align: justify;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.soc{
+    margin-left: 5%;
+}
+.soc1{
+    margin-left: 20%;
+}
+.arg{
+    text-align: center;
+    padding: 10%;
+}
+body{
+    background-image: url(bruh.PNG);
+background-size: cover;
+opacity: 1;
+}
