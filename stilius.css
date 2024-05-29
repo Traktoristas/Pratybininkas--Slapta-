@@ -45,9 +45,8 @@ ul{
 }
 .sonelis{
         background-color: #2fe99b6b;
-        width: 50%;
-        margin: 1%;
-        padding: 1%;
+        margin: 10px;
+        padding: 10px;
         display: flex;
         flex-wrap: wrap; 
         align-items: center;
@@ -62,7 +61,7 @@ ul{
     font-size: xxx-large;
 }
 .steam{
-    background-color: rgba(61, 163, 66, 0.342);
+    background-color: rgba(61, 163, 66, 0.589);
     border-radius: 100%;
     padding: 15%;
     font-size: larger;
@@ -76,25 +75,25 @@ ul{
 .gridas{
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
-    margin-right: 30%;
+    margin-right: 150px;
 }
 .gridasinfo{
     display: grid;
     grid-template-columns: 3fr 1fr;
-margin-right:14%;
+    margin-right:100px;
 }
 .straipsnis{
     width: 200px;
-    margin: 5%;
+    margin: 15px;
     text-align: justify;
     background-position: center;
     background-repeat: no-repeat;
 }
 .soc{
-    margin-left: 5%;
+    margin-left: 15px;
 }
 .soc1{
-    margin-left: 20%;
+    margin-left: 10px;
 }
 .arg{
     text-align: center;
@@ -104,4 +103,15 @@ body{
     background-image: url(bruh.PNG);
 background-size: cover;
 opacity: 1;
+}
+.limpa{
+    position:  sticky;
+    bottom: 0;
+    height: 50px;
+    width: 100px;
+    border-radius: 3%;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
 }
